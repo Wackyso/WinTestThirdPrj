@@ -1,0 +1,15 @@
+﻿<Window x:Class="WinTestThirdPrj.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WinTestThirdPrj"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="476,257,0,0" VerticalAlignment="Top" Width="135" Height="86" Click="Button_Click"/>
+        <Label x:Name="label1" Content="Label" HorizontalAlignment="Left" Margin="56,33,0,0" VerticalAlignment="Top" Height="341" Width="378"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="518,57,0,0" VerticalAlignment="Top" Height="178" Width="224"/>
+
+    </Grid>
+</Window>
