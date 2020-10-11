@@ -11,7 +11,7 @@ namespace WinTestThirdPrj
 {
     class NetService
     {
-        const string Url = "";
+        const string Url = "http://192.168.1.7:57755/api/values";
         private HttpClient GetClient()
         {
             HttpClient client = new HttpClient();
